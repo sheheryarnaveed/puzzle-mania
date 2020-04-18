@@ -12,7 +12,7 @@ for f in exp_list:
   plt.style.use('ggplot')
   histogram = plt.figure(figsize=(30,9))
   n, bins, patch = plt.hist(df['Percent_expressed_genes_are_mouse_genes'].tolist(), bins=100, color=['orange'],range=[-0.5,100.5],edgecolor='black')
-  plt.legend(["Mouse"])
+#   plt.legend(["Mouse"])
   plt.title("Percentage of Mouse Genes Per Barcode Histogram")
   plt.xlabel("% of Mouse Genes")
   plt.ylabel("Frequency")
