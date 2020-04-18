@@ -40,7 +40,7 @@ for my $species (qw(mouse human)) {
 	
 }
 
-for my $exp (qw(1 2 3 4 5.1 5.2 5.3 5.4)) {
+for my $exp (qw(1 2 3 4 5.1 5.2 5.3 5.4 5.5)) {
 	my $exp_matrix = "exp$exp/exp$exp.csv";
 	my $output_file = "exp$exp/exp$exp" . "_percent_mouse_genes_per_barcode.csv";
 	
